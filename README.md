@@ -35,7 +35,7 @@ The platform currently supports three primary roles:
 
 The project focuses on timetable management, classroom allocation, faculty scheduling, conflict avoidance, lecture-swap coordination, and easy access to academic schedules.
 
----
+
 ## Project Team
 
 ### Timetable Makers
@@ -48,6 +48,7 @@ The project focuses on timetable management, classroom allocation, faculty sched
 | 4 | **Tamana** | **1024030566** |
 | 5 | **Aarav** | **1024030482** |
 
+---
 ## 2. Live Application
 
 ### Production
