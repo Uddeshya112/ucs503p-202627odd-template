@@ -1,41 +1,45 @@
-# TimeTable Maker
+# UCS503P Project Template
 
-An intelligent academic timetable scheduling, room allocation, and lecture-swap management web application built with React, Vite, Tailwind CSS, and Node.js.
+This is a project template for UCS503P Project (2026-27
+ODD). 
 
-## ✨ Features
+There are 3 reports in LaTeX format, namely *a*)
+Project Proposal, *b*) Project Report Prototype Stage,
+and *c*) Project Report Final -- each in their
+respective folders.
 
-- **Multi-Role Access Control**:
-  - **Academic Coordinator**: Master scheduling, room management, faculty workload limits, conflict detection, and timetable generation.
-  - **Faculty / Teachers**: Personalized weekly teaching timetable, preference submissions, and lecture-swap requests.
-  - **Students**: Filterable batch timetables, room numbers, subject details, and print/export functionality.
-- **Interactive Registration & Login**: Real-time sign in and new user registration for Students, Teachers, and Coordinators.
-- **Conflict Avoidance Engine**: Intelligent slot validation avoiding overlapping room, faculty, or batch assignments.
+Journals are stacked under the folder `journals`, one
+folder for each team member.  A sample entry has been
+made for example.
 
-## 🚀 Getting Started
+The source code is contained within the folder `code`.
 
-### 1. Install Dependencies
-```bash
-npm install
+The documentation is under folder `docs`.
+
+All other aspects of code organisation are left to the
+discretion of the user(s).
+
+
+## Docs
+
+As of now, the `docs` is just an organised collection
+of markdown (`md`) files.  But the build procedure is
+using [`mkdocs`](https://google.com/search?q=mkdocs)
+backend.  As a result, any commit into the `master`
+branch of github repository would result in CI/CD based
+build and deployment of the documentation including the
+journals.
+
+For a local DEV-version of the docs for viewing and
+testing, install the local env and issue the following
+command:
+
+``` shell
+make docs
 ```
 
-### 2. Development Server
-```bash
-npm run dev
+### Local `env` for `docs`
+
+``` shell
+
 ```
-Open [http://localhost:3000](http://localhost:3000) in your browser.
-
-### 3. Production Build
-```bash
-npm run build
-```
-
-## 🌐 Deploying to Vercel
-This repository is configured with `vercel.json`:
-- **Build Command**: `vite build`
-- **Output Directory**: `dist`
-- Set root directory to `./` and deployment will build automatically.
-
-## 🔑 Default Demo Accounts
-- **Coordinator**: `admin@college.edu` / `password`
-- **Faculty / Teacher**: `sharma@college.edu` / `password`
-- **Student**: `student@college.edu` / `password`
