@@ -36,6 +36,17 @@ The platform currently supports three primary roles:
 The project focuses on timetable management, classroom allocation, faculty scheduling, conflict avoidance, lecture-swap coordination, and easy access to academic schedules.
 
 ---
+## Project Team
+
+### Timetable Makers
+
+| # | Team Member | Roll Number |
+|---:|---|---:|
+| 1 | **Uddeshya Kumar** | **1024031184** |
+| 2 | **Sahibjot Singh** | **1024030559** |
+| 3 | **Sparsh Gupta** | **1024030557** |
+| 4 | **Tamana** | **1024030566** |
+| 5 | **Aarav** | **1024030482** |
 
 ## 2. Live Application
 
